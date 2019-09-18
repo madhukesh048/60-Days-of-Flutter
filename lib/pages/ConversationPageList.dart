@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:sixty_days_of_flutter/pages/ConversationPage.dart';
 
-class ConversationPage extends StatefulWidget {
+class ConversationPageList extends StatefulWidget {
   @override
-  _ConversationPageState createState() => _ConversationPageState();
+  _ConversationPageListState createState() => _ConversationPageListState();
+   const ConversationPageList();
 }
 
-class _ConversationPageState extends State<ConversationPage> {
+class _ConversationPageListState extends State<ConversationPageList> {
   @override
   Widget build(BuildContext context) {
     return PageView(

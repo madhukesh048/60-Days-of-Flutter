@@ -6,6 +6,7 @@ import 'package:sixty_days_of_flutter/widgets/InputWidget.dart';
 class ConversationPage extends StatefulWidget {
   @override
   _ConversationPageState createState() => _ConversationPageState();
+   const ConversationPage();
 }
 
 class _ConversationPageState extends State<ConversationPage> {
@@ -13,13 +14,10 @@ class _ConversationPageState extends State<ConversationPage> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-            appBar: ChatAppBar(), // Custom app bar for chat screen
+            appBar: ChatAppBar(),
             body: Stack(children: <Widget>[
               Column(
-                children: <Widget>[
-                ChatListWidget(),
-                  InputWidget() 
-                ],
+                children: <Widget>[ChatListWidget(), InputWidget()],
               ),
             ])));
   }

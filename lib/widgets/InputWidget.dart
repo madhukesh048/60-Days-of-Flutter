@@ -45,7 +45,9 @@ class InputWidget extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 8.0),
               child: IconButton(
                 icon: Icon(Icons.send),
-                onPressed: () => {},
+                onPressed: () => {
+                  //TODO
+                },
                 color: Colors.blue,
               ),
             ),
