@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sixty_days_of_flutter/widgets/ChatItemWidget.dart';
+import 'package:sixty_days_of_flutter/widgets/MessageItemWidget.dart';
 
 void main(){
   const MaterialApp app = MaterialApp(
     home: Scaffold(
-        body:  const ChatItemWidget(0)
+        body:  const MessageItemWidget(0)
     ),
   );
-  testWidgets('ChatItemWidget UI Test', (WidgetTester tester) async {
+  testWidgets('MessageItemWidget UI Test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(app);
 

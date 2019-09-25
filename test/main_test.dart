@@ -7,7 +7,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sixty_days_of_flutter/main.dart';
-import 'package:sixty_days_of_flutter/pages/ConversationPageList.dart';
+import 'package:sixty_days_of_flutter/widgets/ConversationPageSlide.dart';
 
 
 void main() {
@@ -15,6 +15,6 @@ void main() {
     // Build our app and trigger a frame.
     await tester.pumpWidget(MyApp());
 
-    expect(find.byType(ConversationPageList), findsOneWidget);
+    expect(find.byType(ConversationPageSlide), findsOneWidget);
   });
 }

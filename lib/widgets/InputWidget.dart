@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sixty_days_of_flutter/config/Palette.dart';
+import 'package:sixty_days_of_flutter/widgets/ConversationBottomSheet.dart';
 
 class InputWidget extends StatelessWidget {
   final TextEditingController textEditingController =
@@ -14,17 +15,14 @@ class InputWidget extends StatelessWidget {
             child: Container(
               margin: EdgeInsets.symmetric(horizontal: 1.0),
               child: IconButton(
-                icon: Icon(Icons.face),
-                color: Colors.blue,
-                onPressed: () {
-                  //TODO
-                },
-              ),
+                  icon: Icon(Icons.face),
+                  color: Colors.blue,
+                  onPressed: () => {
+                        //TODO
+                      }),
             ),
             color: Colors.white,
           ),
-
-          // Text input
           Flexible(
             child: Container(
               child: TextField(
@@ -38,8 +36,6 @@ class InputWidget extends StatelessWidget {
               ),
             ),
           ),
-
-          // Send Message Button
           Material(
             child: Container(
               margin: EdgeInsets.symmetric(horizontal: 8.0),

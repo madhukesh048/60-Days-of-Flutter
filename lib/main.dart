@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sixty_days_of_flutter/pages/ConversationPageList.dart';
+import 'package:sixty_days_of_flutter/widgets/ConversationPageSlide.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.yellow,
       ),
-      home: ConversationPageList(),
+      home: ConversationPageSlide(),
     );
   }
 }

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:sixty_days_of_flutter/widgets/ChatItemWidget.dart';
+import 'package:sixty_days_of_flutter/widgets/MessageItemWidget.dart';
 
-class ChatListWidget extends StatelessWidget {
+class MessageListWidget extends StatelessWidget {
   final ScrollController listScrollController = ScrollController();
   @override
   Widget build(BuildContext context) {
     return Flexible(
       child: ListView.builder(
         padding: EdgeInsets.all(10),
-        itemBuilder: (context, index) => ChatItemWidget(index),
+        itemBuilder: (context, index) => MessageItemWidget(index),
         itemCount: 20,
         reverse: true,
         controller: listScrollController,

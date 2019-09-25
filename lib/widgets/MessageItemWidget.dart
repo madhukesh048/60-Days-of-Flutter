@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:sixty_days_of_flutter/config/Palette.dart';
 
-class ChatItemWidget extends StatelessWidget {
+class MessageItemWidget extends StatelessWidget {
   final int index;
 
-  const ChatItemWidget(this.index);
+  const MessageItemWidget(this.index);
 
   @override
   Widget build(BuildContext context) {
