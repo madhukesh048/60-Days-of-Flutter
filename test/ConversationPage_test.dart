@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:sixty_days_of_flutter/pages/ConversationPage.dart';
 import 'package:sixty_days_of_flutter/widgets/ChatAppBar.dart';
 import 'package:sixty_days_of_flutter/widgets/MessageListWidget.dart';
-import 'package:sixty_days_of_flutter/widgets/InputWidget.dart';
+
 
 void main(){
   const MaterialApp app = MaterialApp(
@@ -17,7 +17,7 @@ void main(){
     await tester.pumpWidget(app);
 
     expect(find.byType(ChatAppBar),findsOneWidget);
-    expect(find.byType(InputWidget),findsOneWidget);
+   
     expect(find.byType(MessageListWidget),findsOneWidget);
 
 

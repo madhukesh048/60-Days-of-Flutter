@@ -5,14 +5,12 @@ class MessageListWidget extends StatelessWidget {
   final ScrollController listScrollController = ScrollController();
   @override
   Widget build(BuildContext context) {
-    return Flexible(
-      child: ListView.builder(
-        padding: EdgeInsets.all(10),
-        itemBuilder: (context, index) => MessageItemWidget(index),
-        itemCount: 20,
-        reverse: true,
-        controller: listScrollController,
-      ),
+    return ListView.builder(
+      padding: EdgeInsets.all(10),
+      itemBuilder: (context, index) => MessageItemWidget(index),
+      itemCount: 20,
+      reverse: true,
+      controller: listScrollController,
     );
   }
 }
