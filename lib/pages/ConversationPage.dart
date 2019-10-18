@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:chatapp/config/Palette.dart';
 import 'package:chatapp/widgets/ChatAppBar.dart';
 import 'package:chatapp/widgets/MessageListWidget.dart';
 

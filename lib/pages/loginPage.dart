@@ -1,10 +1,9 @@
-import 'package:chatapp/pages/RegistrationPage.dart';
 import 'package:chatapp/pages/SplashPage.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:chatapp/auth/auth.dart';
-import 'package:chatapp/widgets/ConversationPageSlide.dart';
+
 import 'package:chatapp/widgets/SignInButton.dart';
 
 class LoginPage extends StatefulWidget {

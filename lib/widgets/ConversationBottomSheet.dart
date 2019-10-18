@@ -1,3 +1,4 @@
+import 'package:chatapp/widgets/ConversationPageSlide.dart';
 import 'package:flutter/material.dart';
 import 'package:chatapp/config/Palette.dart';
 import 'package:chatapp/config/Styles.dart';
@@ -16,6 +17,10 @@ class _ConversationBottomSheetState extends State<ConversationBottomSheet> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: GestureDetector(
+        onTap: () {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => ConversationPageSlide()));
+        },
         child: ListView(
           shrinkWrap: true,
           physics: ClampingScrollPhysics(),
