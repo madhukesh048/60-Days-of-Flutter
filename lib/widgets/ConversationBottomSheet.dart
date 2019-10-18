@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sixty_days_of_flutter/config/Palette.dart';
-import 'package:sixty_days_of_flutter/config/Styles.dart';
-import 'package:sixty_days_of_flutter/widgets/ChatRowWidget.dart';
-import 'package:sixty_days_of_flutter/widgets/NavigationPillWidget.dart';
+import 'package:chatapp/config/Palette.dart';
+import 'package:chatapp/config/Styles.dart';
+import 'package:chatapp/widgets/ChatRowWidget.dart';
+import 'package:chatapp/widgets/NavigationPillWidget.dart';
 
 class ConversationBottomSheet extends StatefulWidget {
   @override

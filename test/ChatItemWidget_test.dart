@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sixty_days_of_flutter/widgets/MessageItemWidget.dart';
+import 'package:chatapp/widgets/MessageItemWidget.dart';
 
 void main(){
   const MaterialApp app = MaterialApp(

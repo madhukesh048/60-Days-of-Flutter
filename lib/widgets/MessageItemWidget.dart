@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:sixty_days_of_flutter/config/Palette.dart';
+import 'package:chatapp/config/Palette.dart';
 
 class MessageItemWidget extends StatelessWidget {
   final int index;

@@ -1,4 +1,4 @@
-package com.example.sixty_days_of_flutter
+package com.example.chatapp
 
 import android.os.Bundle
 

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sixty_days_of_flutter/widgets/ConversationPageSlide.dart';
+import 'package:chatapp/pages/loginPage.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.yellow,
       ),
-      home: ConversationPageSlide(),
+      home: LoginPage(),
     );
   }
 }

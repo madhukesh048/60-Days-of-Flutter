@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sixty_days_of_flutter/widgets/MessageItemWidget.dart';
+import 'package:chatapp/widgets/MessageItemWidget.dart';
 
 class MessageListWidget extends StatelessWidget {
   final ScrollController listScrollController = ScrollController();

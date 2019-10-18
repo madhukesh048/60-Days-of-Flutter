@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sixty_days_of_flutter/config/Palette.dart';
+import 'package:chatapp/config/Palette.dart';
 
 class NavigationPillWidget extends StatelessWidget {
   @override

@@ -1,4 +1,4 @@
-# sixty_days_of_flutter
+# chatapp
 
 A new Flutter project.
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sixty_days_of_flutter/widgets/ChatAppBar.dart';
+import 'package:chatapp/widgets/ChatAppBar.dart';
 
 void main(){
   const MaterialApp app = MaterialApp(

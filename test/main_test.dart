@@ -6,8 +6,8 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sixty_days_of_flutter/main.dart';
-import 'package:sixty_days_of_flutter/widgets/ConversationPageSlide.dart';
+import 'package:chatapp/main.dart';
+import 'package:chatapp/widgets/ConversationPageSlide.dart';
 
 
 void main() {

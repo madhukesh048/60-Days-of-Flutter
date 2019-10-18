@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sixty_days_of_flutter/pages/ConversationPage.dart';
-import 'package:sixty_days_of_flutter/widgets/ChatAppBar.dart';
-import 'package:sixty_days_of_flutter/widgets/MessageListWidget.dart';
+import 'package:chatapp/pages/ConversationPage.dart';
+import 'package:chatapp/widgets/ChatAppBar.dart';
+import 'package:chatapp/widgets/MessageListWidget.dart';
 
 
 void main(){

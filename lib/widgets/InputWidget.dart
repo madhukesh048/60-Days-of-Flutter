@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sixty_days_of_flutter/config/Palette.dart';
-import 'package:sixty_days_of_flutter/widgets/ConversationBottomSheet.dart';
+import 'package:chatapp/config/Palette.dart';
+import 'package:chatapp/widgets/ConversationBottomSheet.dart';
 
 class InputWidget extends StatelessWidget {
   final TextEditingController textEditingController =

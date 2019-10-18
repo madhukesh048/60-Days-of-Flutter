@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sixty_days_of_flutter/config/Assets.dart';
-import 'package:sixty_days_of_flutter/config/Palette.dart';
+import 'package:chatapp/config/Palette.dart';
+import 'package:chatapp/auth/auth.dart';
+import 'package:chatapp/pages/loginPage.dart';
 
 class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
   final double height = 100;
@@ -41,7 +42,12 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
                                       icon: Icon(Icons.attach_file),
                                       color: Palette.secondaryColor,
                                       onPressed: () {
-                                        //TODO
+                                        signOutGoogle();
+                                        Navigator.pushReplacement(
+                                            context,
+                                            MaterialPageRoute(
+                                                builder: (context) =>
+                                                    LoginPage()));
                                       },
                                     ))),
                                 Expanded(
@@ -54,8 +60,8 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
                                           MainAxisAlignment.center,
                                       mainAxisSize: MainAxisSize.min,
                                       children: <Widget>[
-                                        Text('Madhukesh', style: textHeading),
-                                        Text('@madhukesh048', style: textStyle)
+                                        Text(name, style: textHeading),
+                                        Text(email, style: textStyle)
                                       ],
                                     ))),
                               ],
@@ -97,9 +103,9 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
                           child: Center(
                               child: CircleAvatar(
                         radius: 30,
-                        backgroundImage: Image.asset(
-                          Assets.user,
-                        ).image,
+                        backgroundImage: NetworkImage(
+                          imageUrl,
+                        ),
                       )))),
                 ]))));
   }

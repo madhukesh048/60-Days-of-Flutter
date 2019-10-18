@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:rubber/rubber.dart';
-import 'package:sixty_days_of_flutter/pages/ConversationPage.dart';
-import 'package:sixty_days_of_flutter/widgets/ConversationBottomSheet.dart';
-import 'package:sixty_days_of_flutter/widgets/InputWidget.dart';
+import 'package:chatapp/pages/ConversationPage.dart';
+import 'package:chatapp/widgets/ConversationBottomSheet.dart';
+import 'package:chatapp/widgets/InputWidget.dart';
 
 class ConversationPageSlide extends StatefulWidget {
   @override
